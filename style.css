@@ -1,0 +1,203 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+body{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+.site{
+    display: flex;
+    border: 2px solid aliceblue;
+    height: 100vh;
+    width: 100%;
+}
+.set_dir{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.left_panel{
+    display: flex;
+    flex-wrap: wrap;
+    border:2px solid red;
+    width:20%;
+    height:100%
+}
+.nav_panel{
+    border: 2px solid blue;
+    width: 100%;
+    height: 5%;
+}
+.display_panel{
+    border: 2px solid green;
+    width: 100%;
+    height: 95%;
+}
+.left_panel .profile{
+    width: 100%;
+    height: 5%;
+    display:flex;
+    border: 2px solid white;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.left_panel .menu{
+    width: 100%;
+    height: 40%;
+    padding: 15px 10px;
+    border: 2px solid white;
+
+}
+.left_panel .labels{
+    position: relative;
+    width: 100%;
+    height: 55%;
+    padding: 15px 10px;
+    border: 2px solid white;
+}
+.headers{
+    font-weight: 300;
+    font-size: 20px;
+    color: grey;
+}
+.menu_optins{
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 10px;
+    top: -2px;
+}
+.left_panel .menu .setopt{
+    margin: 20px 10px;
+    display: flex;
+    padding:0px 10px;
+
+}
+.left_panel .labels .setopt{
+    margin: 10px 10px;
+    display: flex;
+    padding:0px 10px;
+
+}
+.label_optins{
+    position: relative;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0px 10px;
+}
+.high{
+    color: #fcb8b9;
+}
+.medium{
+    color: #b4e1fe;
+}
+.low{
+    color: #ffefc2;
+}
+.labels .btn_logout{
+    position: absolute;
+    border-style: none;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 5px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #D0D0D0;
+    bottom: 20px;
+}
+.nav_panel{
+    display: flex;
+    padding-left:20px ;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+.nav_panel .searchbar{
+    display: flex;
+    align-items: center;
+
+}
+.nav_panel .searchbar .search_opt{
+    border-style: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 5px 15px;
+    width: 400px
+
+}
+.notification{
+    display: flex;
+    align-items: center;
+}
+.nav_panel .notification .bxs-bell{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 4px;
+}
+.nav_panel .notification .bx{
+    position: relative;
+}
+.display_panel .guide_menu{
+    display: flex;
+    border: 2px solid white;
+    width: 100%;
+    height: 15%;
+}
+.display_panel .taskdesk{
+    display: flex;
+    border: 2px solid white;
+    width: 100%;
+    height: 85%;
+}
+.display_panel .taskdesk .todo_menu , .doing_menu, .inreview_menu, .done_menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin:20px 10px ;    
+    justify-content: center;
+    border: 2px solid white;
+    width: 25%;
+    height: 95%;
+}
+
+.display_panel .taskdesk .type_title, .add_task{
+    display: flex;
+    border: 2px solid white;
+    background-color: #D0D0D0;
+    margin-top: 10px;
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+}
+.display_panel .taskdesk .todo_tasks,.doing_tasks,.inreview_tasks,.done_tasks{
+    display: flex;
+    border: 2px solid white;
+    background-color: #D0D0D0;
+    border-radius: 5px;
+    width: 90%;
+    height: 85%;
+}
+.task_title{
+    padding: 0px 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.add_task{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed gray;
+}
+.bx-plus:before{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.add{
+    font-size: 15px;
+    font-weight: 400;
+}
